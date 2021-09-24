@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+body {
+  font-family: "Oxygen", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1140px !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+section {
+  margin-bottom: 200px;
+}
+
+ul.navbar-nav.ms-auto li {
+  margin-right: 20px;
+}
+
+li.nav-item a {
+  color: #000 !important;
+  font-size: 18px;
+  transition: 0.4s;
+}
+li.nav-item a:hover {
+  color: #0bceaf !important;
+  border-bottom: 1px solid #000;
+}
+.fa-spin {
+  position: fixed;
+  top: 120px;
+  left: 2%;
+  font-size: 25px;
+  color: #272727cf !important;
+}
+
+section#aboutMe {
+  margin-top: 250px;
+}
+
+.Hi span {
+  background: #0bceaf;
+  color: #fff;
+  padding: 10px 25px;
+  font-weight: 800;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.Hi h1 {
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.Hi h3 {
+  font-size: 20px;
+  margin: 24px 0px;
+}
+
+.Hi p {
+  color: #333333b8;
+  line-height: 1.8;
+  width: 430px;
+}
+.social ul {
+  list-style: none;
+  width: 350px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.social ul li a {
+  color: #333;
+  border-radius: 3px;
+  padding: 10px 15px;
+  transition: 0.5s ease;
+}
+.social ul li a:hover {
+  background: #333;
+
+  color: #39d7be;
+}
+
+.img {
+  width: 75%;
+  border: 20px solid rgb(0 0 0 / 5%);
+  border-radius: 50%;
+  margin-left: 20%;
+}
+
+.img img {
+  width: 100%;
+  border: 20px solid rgb(0 0 0 / 12%);
+  border-radius: 50%;
+}
+.taskWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.taskIcon i {
+  color: #9774fa;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.taskIcon {
+  text-align: center;
+}
+
+.singleTask {
+  box-shadow: 0px 10px 20px 4px #00000014;
+  width: 30%;
+  padding: 30px;
+}
+i.fa.fa-code.iron-color {
+    color: #ed7256;
+    font-weight: 600;
+}
+.singleTask h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.singleTask p {
+    color: #605d5d;
+}
+.aboutCimg img {
+    width: 100%;
+}
+span.aboutHead {
+    font-size: 30px;
+    font-weight: 800;
+    color: #9a9999;
+}
+
+.abInfo p {
+    margin: 40px 0px;
+    line-height: 1.8;
+}
+
+.languages {
+    margin: 35px 0px;
+}
+
+.languages span {
+    padding: 5px 20px;
+    border: 1px solid #0bceaf;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.languages {
+    display: flex;
+    justify-content: space-between;
+}
+button.DownBTN.btn {
+    background: #0bceaf;
+    color: white;
+}
+h1.doh1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 160px;
+}
+
+.technicalJS {
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.skillInfoJS {
+  display: flex;
+  justify-content: space-between;
+}
+
+.backColJS {
+  width: 100%;
+  height: 7px;
+  background: #ddd;
+  position: relative;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.skillColJS {
+  width: 78%;
+  height: 7px;
+  background: #0bceaf;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.technicalPhp {
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.skillInfoPhp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.backColPhp {
+  width: 100%;
+  height: 7px;
+  background: #ddd;
+  position: relative;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.skillColPhp {
+  width: 75%;
+  height: 7px;
+  background: #0bceaf;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.technicalHtml {
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.skillInfoHtml {
+  display: flex;
+  justify-content: space-between;
+}
+
+.backColHtml {
+  width: 100%;
+  height: 7px;
+  background: #ddd;
+  position: relative;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.skillColHtml {
+  width: 86%;
+  height: 7px;
+  background: #0bceaf;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.technicalCSS {
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.skillInfoCSS {
+  display: flex;
+  justify-content: space-between;
+}
+
+.backColCSS {
+  width: 100%;
+  height: 7px;
+  background: #ddd;
+  position: relative;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.skillColCSS {
+  width: 90%;
+  height: 7px;
+  background: #0bceaf;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.technicalWp {
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.skillInfoWp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.backColWp {
+  width: 100%;
+  height: 7px;
+  background: #ddd;
+  position: relative;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.skillColWp {
+  width: 82%;
+  height: 7px;
+  background: #0bceaf;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+h1.techh1 {
+  font-size: 30px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.singleEdu {
+  width: 95%;
+  box-shadow: 0px 10px 20px 4px #00000014;
+  padding: 30px 40px;
+  margin-bottom: 40px;
+}
+
+.fistInfo p {
+  font-size: 20px;
+}
+
+.fistInfo > p >span {
+  color: #0bceaf;
+}
+
+.fistInfo>span {
+  color: #0bceaf;
+  font-size: 15px;
+}
+
+.singleEdu>p {
+  margin-top: 20px;
+  color: #333333d9;
+}
